@@ -70,18 +70,15 @@ body {
   color: var(--main-text-color);
 }
 
-.link.navigation:hover {
-  color: var(--third-headertext-color);
-}
+.link.navigation:hover,
 .link.navigation:focus {
   color: var(--third-headertext-color);
 }
-.link.contact:hover {
-  color: var(--third-headertext-color);
-}
+.link.contact:hover,
 .link.contact:focus {
   color: var(--third-headertext-color);
 }
+
 /* -------------------------------main------------------------------------ */
 /* hero */
 .hero {
@@ -108,12 +105,11 @@ body {
   color: var(--second-btn-color);
   cursor: pointer;
 }
-.hero-btn:hover {
-  background: #188ce8;
-}
+.hero-btn:hover,
 .hero-btn:focus {
   background: #188ce8;
 }
+
 /* advantages */
 .advantages {
   background: #e5e5e5;
@@ -186,12 +182,11 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.link.footer-contact:hover {
-  color: var(--third-footertext-color);
-}
+.link.footer-contact:hover,
 .link.footer-contact:focus {
   color: var(--third-footertext-color);
 }
+
 /* ---------------------------Portfolio---------------------- */
 /* filter */
 .filter {
@@ -206,9 +201,7 @@ body {
   background: #f5f4fa;
   cursor: pointer;
 }
-.filter-btn:hover {
-  background: #2196f3;
-}
+.filter-btn:hover,
 .filter-btn:focus {
   background: #2196f3;
 }
